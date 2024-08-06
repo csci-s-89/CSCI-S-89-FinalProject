@@ -1,0 +1,50 @@
+# General purpose Deep Learning Environment
+#
+# For S89 Final Project
+#
+
+name: s89-finalProject
+
+channels:
+    - conda-forge
+
+dependencies:
+    # - arviz
+    # - imageio
+    - ipython
+    - jupyterlab
+    - matplotlib
+    # - seaborn
+    - numpy
+    # - pillow
+    - pip
+    - plotly
+    - python>=3.9,<3.12
+    - python-graphviz
+    - python-docx
+    - scikit-learn
+    - pytorch
+    - tqdm
+    - nodejs
+    - tensorflow
+    - pip:
+        - torchvision
+        - torchaudio
+        - torchinfo   
+        - tf-keras
+        - deepface     
+        - cowpy   
+        - opencv-python   
+        - lpips
+        - torch-fidelity # Required only for Deblurring Metrics
+        - scikit-image   # Required only for Deblurring Metrics
+        - torchmetrics   # Required only for Deblurring Metrics
+        # - DeepPurpose
+        # - rdkit
+        # - git+https://github.com/bp-kelley/descriptastorus
+        # - pysmiles
+        # - pandas-flavor
+        # - gradio==3.28.1
+        # - pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.2.1+cu121.html
+        # - torch_geometric
+        
