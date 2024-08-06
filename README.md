@@ -21,7 +21,7 @@ Our results demonstrate significant improvements over baseline methods, with eac
 
 #### Dependencies and Installation 
 
-'''
+```
 # git clone this repository
 git clone https://github.com/csci-s-89/CSCI-S-89-FinalProject.git
 
@@ -37,4 +37,4 @@ code AutoEncoder.ipynb
 # Transfer Learning Notebook
 cd TransferLearning
 code TransferLearning.ipynb
-'''
+```
