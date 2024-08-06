@@ -4,10 +4,14 @@ VQFR
 CodeFormer
 checkpoint*
 face.yml
+.ipynb_checkpoints
+
 CustomAutoEncoder/images
 CustomAutoEncoder/models
 CustomAutoEncoder/deblurred_images
 CustomAutoEncoder/.ipynb_checkpoints
+CustomAutoEncoder/AutoEncoder.html
+
 TransferLearning/weights
 TransferLearning/.ipynb_checkpoints
-.ipynb_checkpoints
+TransferLearning/TransferLearning.html
